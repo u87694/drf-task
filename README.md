@@ -3,7 +3,9 @@
 ## Introduction
 
 This application is build using `Django-Rest-Framework`, this is made for the review and inspection of the hiring staff at `Thinkflair`.
+
 The application is efficiently handling the creation of `Author` and `Book` models, the validation have been implemented to limit the number of `Book` objects that can be associated with `Author` objects is no more that 5.
+
 The code is well documented and easy to understand for anyone reviewing the logic.
 
 ## Instruction on how to set up and run the application
