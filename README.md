@@ -37,7 +37,13 @@ The code is well documented and easy to understand for anyone reviewing the logi
   pip install -r requirements.txt
   ```
 
-* Create all the migrations for the database
+* Create tables that are defined in the `app`
+
+  ```
+  python manage.py makemigrations app
+  ```
+
+* Migrate to sync the database with custom tables
 
   ```
   python manage.py migrate
